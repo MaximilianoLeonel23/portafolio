@@ -1,10 +1,10 @@
 const Footer = () => {
   return (
     <footer>
-      <nav className="container flex gap-x-4 mx-auto">
+      <nav className="fixed right-8 bottom-6 flex flex-col gap-y-4 mx-auto">
         <a href="/">
           <svg
-            className="group hover:-translate-y-2 transition"
+            className="group hover:-translate-x-2 transition"
             width="40"
             height="40"
             viewBox="0 0 64 64"
@@ -25,7 +25,7 @@ const Footer = () => {
         </a>
         <a href="/">
           <svg
-            className="group hover:-translate-y-2 transition"
+            className="group hover:-translate-x-2 transition"
             width="40"
             height="40"
             viewBox="0 0 64 64"
@@ -46,7 +46,7 @@ const Footer = () => {
         </a>
         <a href="/">
           <svg
-            className="group hover:-translate-y-2 transition"
+            className="group hover:-translate-x-2 transition"
             width="40"
             height="40"
             viewBox="0 0 64 64"
@@ -67,7 +67,7 @@ const Footer = () => {
         </a>
         <a href="/">
           <svg
-            className="group hover:-translate-y-2 transition"
+            className="group hover:-translate-x-2 transition"
             width="40"
             height="40"
             viewBox="0 0 64 64"

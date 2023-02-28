@@ -11,8 +11,15 @@ module.exports = {
         primarybtn: "#5972c0",
       },
 
-      container: "2rem",
-
+      container: {
+        padding: {
+          DEFAULT: '2rem',
+          sm: '2rem',
+          lg: '4rem',
+          xl: '5rem',
+          '2xl': '6rem',
+        }
+      },
       fontFamily: {
         mont: "Montserrat",
         fira: "Fira Sans",

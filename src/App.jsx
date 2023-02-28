@@ -1,5 +1,4 @@
 import Header from "./components/Header";
-import Footer from "./components/Footer";
 import Home from "./components/Home";
 import About from "./components/About";
 import Projects from "./components/Projects";
@@ -10,7 +9,6 @@ function App() {
   return (
     <>
       <Header />
-
       <Routes>
         <Route path="/" element={<MainTemplate/>}>
           <Route index element={<Home />} />
@@ -18,8 +16,6 @@ function App() {
           <Route path="/sobre-mi" element={<About />} />
         </Route>
       </Routes>
-
-      <Footer />
     </>
   );
 }

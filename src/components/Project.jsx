@@ -2,8 +2,8 @@ import React from "react";
 
 const Project = ({ object }) => {
   return (
-    <div className="flex justify-start gap-x-8">
-      <article className="w-1/2">
+    <div className="flex flex-col sm:flex-row justify-center sm:justify-start gap-y-8 sm:gap-x-8">
+      <article className="w-full sm:w-1/2">
         <a href={object.link} target="_blank">
           <div className="border border-gray-300 py-10 rounded-lg shadow-card">
             <img
@@ -13,9 +13,9 @@ const Project = ({ object }) => {
           </div>
         </a>
       </article>
-      <article className="w-1/2 font-fira leading-6">
+      <article className="w-full sm:w-1/2 font-fira leading-6">
         <div>
-          <div className="flex items-center gap-x-8 mb-6">
+          <div className="flex items-center gap-x-4 mb-6">
             <h3 className="font-bold text-xl text-slate-800">{object.title}</h3>
             <div className="flex items-center gap-x-2">
               {object.mobile && (
@@ -67,7 +67,7 @@ const Project = ({ object }) => {
             {object.shortLink}
           </a>
         </div>
-        <div className="mt-10">
+        <div className="mt-6 sm:mt-10">
           <h3 className="mb-6 font-semibold text-slate-700">
             Tecnologías utilizadas
           </h3>

@@ -5,7 +5,7 @@ const Projects = () => {
 
   return (
     <section>
-      <div className="flex flex-col gap-y-24 pb-16">
+      <div className="flex flex-col gap-y-12 sm:gap-y-24">
         {/* Devolver array de projectos*/}
         {projectsData.map((item) => {
           return <Project key={item.id} object={item} />;
